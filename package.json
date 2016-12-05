@@ -1,0 +1,36 @@
+{
+  "name": "music",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "moment": "^2.17.1",
+    "ramda": "^0.22.1",
+    "react": "15.4.1",
+    "react-native": "^0.38.0",
+    "react-native-router-flux": "^3.37.0",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-jest": "17.0.2",
+    "babel-preset-react-native": "1.9.0",
+    "eslint": "^3.11.1",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-react": "^6.8.0",
+    "flow-bin": "0.33.0",
+    "jest": "17.0.3",
+    "react-test-renderer": "15.4.1",
+    "remote-redux-devtools": "^0.5.5",
+    "remotedev-server": "^0.3.0-beta-2",
+    "source-map": "^0.5.6"
+  }
+}

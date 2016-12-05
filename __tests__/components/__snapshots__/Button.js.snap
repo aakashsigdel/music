@@ -1,0 +1,56 @@
+exports[`test should render <Button /> correctly 1`] = `
+<View
+  accessibilityComponentType="button"
+  accessibilityLabel={undefined}
+  accessibilityTraits={
+    Array [
+      "button",
+    ]
+  }
+  accessible={true}
+  hitSlop={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID={undefined}>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#0C42FD",
+          "borderRadius": 2,
+          "elevation": 4,
+          "height": 44,
+          "justifyContent": "center",
+        },
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontWeight": "500",
+            "padding": 8,
+            "textAlign": "center",
+          },
+        ]
+      }>
+      Test Button
+    </Text>
+  </View>
+</View>
+`;
