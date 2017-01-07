@@ -21,9 +21,15 @@ const Routes = () =>
           <Scene key='app'
             component={App}
             title={'Aakash Music'}
+            titleStyle={{fontSize: 20, fontFamily: 'Lato-Bold'}}
+            titleWrapperStyle={{top: 12}}
             leftButtonImage={require('../images/settings.png')}
+            leftButtonIconStyle={{width: 28, height: 28, resizeMode: 'contain'}}
+            leftButtonStyle={{left: 10, top: 12}}
             onLeft={() => null}
             rightButtonImage={require('../images/search.png')}
+            rightButtonIconStyle={{width: 28, height: 28, resizeMode: 'contain'}}
+            rightButtonStyle={{right: 10, top: 12}}
             onRight={() => null}
           />
         </Scene>
