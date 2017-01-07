@@ -5,7 +5,10 @@ import {
   Platform,
   View
 } from 'react-native'
-// import { Actions } from 'react-native-router-flux'
+import { Actions } from 'react-native-router-flux'
+
+import colors from '../colors'
+import Home from './Home'
 
 
 class App extends Component {
@@ -29,13 +32,14 @@ class App extends Component {
 
   render = () =>
     <View style={styles.container}>
-      </View>
+      <Home />
+    </View>
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#70A1D7'
+    backgroundColor: colors.BACKGROUND
   }
 })
 
