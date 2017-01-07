@@ -18,7 +18,8 @@
     "redux-thunk": "^2.1.0"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "setupFiles": ["test_setup.js"]
   },
   "rnpm": {
     "assets": ["fonts"]
