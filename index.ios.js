@@ -6,11 +6,8 @@ import React from 'react'
 import { AppRegistry, StatusBar, View } from 'react-native';
 import Root from './src'
 
-const Main = () => <View>
-  <StatusBar hidden />
-  <Root />
-  </View>
+const Main = () => <StatusBar hidden />
 
-AppRegistry.registerComponent('music', () => Main);
+AppRegistry.registerComponent('music', () => Root);
 
 export default Root
